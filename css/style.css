@@ -1,0 +1,213 @@
+/* Header */
+#logo{
+    margin:10px;
+}
+
+#tagline p{
+    text-align: right;
+}
+
+/* Top Bar */
+.topBarColor{
+    background-color:#E48E95;
+}
+.topBarColor p{
+    /* font-weight: bold; */
+    text-align: center;
+    color: black;
+}
+
+/* Banner and Form */
+#bannerImg{
+    background-image: url(../imgs/bgimg6.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+
+/* Style the form */
+#regForm {
+  background-color: #fff;
+  /* margin: 100px auto; */
+  font-family: 'Roboto', sans-serif;
+  padding: 40px;
+  width: 50%;
+  min-width: 225px;
+  max-width:600px;
+}
+
+#regForm h2{
+     text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0); 
+}
+
+h2 {
+    text-align: center; 
+    color:#fff;
+    font-size:35px; 
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+.select-dropdown{
+    padding: 8px;
+    margin-top:10px;
+    border-radius: 7px;
+    border:2px solid gray;
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    border-radius: 7px;
+    border:2px solid gray;
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #aaaaaa;
+}
+
+.nextPrevBtn{
+    margin-top: 15px;
+}
+
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+.invalid {
+  background-color: #ffdddd;
+}
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #41B519;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
+button:hover {
+    opacity: 0.9;
+     -webkit-box-shadow: 0px -1px 40px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 40px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 40px -4px rgba(0,0,0,0.75);
+}
+
+#prevBtn {
+  background-color: #8f8f8f;
+}
+
+#disclaimer{
+    font-size: 13px;
+    color: rgb(240, 240, 240);
+    text-align:left;
+    font-weight: normal;
+}
+
+#secure-logos{
+    width:100%;
+}
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #8f8f8f;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #41B519;
+}
+
+/* ========== End of Staff Testimonials ========== */
+/* Footer Styles */
+footer a{
+    color: #2c3d50;
+}
+footer a:hover{
+    color: #CE2A00;
+}
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+@media screen and (min-width:320px){
+    
+}
+
+/* Greater than 480 px */
+@media screen and (min-width:480px){
+    
+
+  
+  
+}
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) { 
+    
+   
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+   
+    
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+}
+
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+
+}
+ 
+ 
+
+
+
