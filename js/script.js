@@ -8,13 +8,13 @@ function showTab(n) {
     // bounces in the text for next 
     x[n].classList.add('animated', 'bounceIn');
     // ... and fix the Previous/Next buttons:
-    if (n == 0) {
+    /* if (n == 0) {
         document.getElementById("prevBtn").style.display = "none";
     } else {
         document.getElementById("prevBtn").style.display = "inline";
-    }
+    } */
     if (n == (x.length - 1)) {
-        document.getElementById("nextBtn").innerHTML = "Get My FREE Consultation";
+        document.getElementById("nextBtn").innerHTML = "Submit Info";
         document.getElementById("nextBtn").setAttribute(
             "style", "font-size: 20px; padding: 8px 12px; margin-top:10px;");
     } else {
@@ -55,7 +55,7 @@ function validateForm() {
     y = x[currentTab].getElementsByTagName("input") ;
     /* Checks for select */
     w = x[currentTab].getElementsByTagName("select");
-    // A loop that checks every input field in the current tab:
+    // loop to check every input field in current tab:
     /* Checks for input */
     for (i = 0; i < y.length; i++) {
         // If a field is empty...

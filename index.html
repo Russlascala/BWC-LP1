@@ -40,7 +40,7 @@
     </div>
     <div class="topBarColor">
         <div class="container">
-            <p>CONNECT WITH OTHER BUSINESS WOMEN LOOKING TO NETWORK</p>    
+            <p id="headerP">CONNECT WITH OTHER BUSINESS WOMEN LOOKING TO NETWORK</p>    
         </div>
     </div>
 
@@ -151,15 +151,16 @@
                         
                         
                         
+                        
                         <div style="overflow:auto;">
-                            <div style="float:right;" class="nextPrevBtn">
-                                <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                            <div style="text-align:center;" class="nextPrevBtn">
+                                <!-- <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button> -->
                                 <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
                             </div>
                         </div>
                         
                         <!-- Circles which indicates the steps of the form: -->
-                        <div style="text-align:center;margin-top:40px;">
+                        <div id="stepsIndicator">
                             <span class="step"></span>
                             <span class="step"></span>
                             <span class="step"></span>
