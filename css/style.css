@@ -5,6 +5,7 @@
 
 #tagline p{
     text-align: right;
+    font-size: 30px;
 }
 
 /* Top Bar */
@@ -44,11 +45,11 @@
      text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0); 
 }
 
-h2 {
+/* h2 {
     text-align: center; 
     color:#fff;
     font-size:35px; 
-}
+} */
 
 .title{
     text-align: center;
@@ -98,6 +99,17 @@ select{
     text-align:center; 
     margin-top:10px;
 }
+
+/* Left Text */
+#textLeft{
+    margin-left: auto;
+    margin-top: auto;
+    color:#fff;
+    background-color: #32363ab4;
+    padding-top:10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
 
 
 /* Mark input boxes that gets an error on validation: */
@@ -167,7 +179,40 @@ button:hover {
   background-color: #dc6f78;
 }
 
-/* ========== End of Staff Testimonials ========== */
+/* Three bullets row section */
+.content-afterform{
+    background-color: #e0e0e0;
+    padding-top: 50px;
+    text-align:center;
+    padding-bottom:50px;
+}
+.icons-top{
+    color:#E48E95;
+    font-size:40px;
+    display: inline-block;
+}
+.startBtn{
+    background: #E48E95;
+    color: #000!important;
+    font-weight: bold;
+    width: 50%;
+    display: block;
+    margin:0 auto;
+}
+.startBtn:hover{
+    background: #dc6f78;
+    color: #fff!important;
+    
+}
+
+/* Text and list section */
+#text-section{
+    padding:10px 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+
 /* Footer Styles */
 footer a{
     color: #2c3d50;
