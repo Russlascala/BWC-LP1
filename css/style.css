@@ -32,8 +32,8 @@
 
 /* Style the form */
 #regForm {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   background-color: #fff;
   /* margin: 100px auto; */
   margin-left: auto;
@@ -42,6 +42,8 @@
   /* width: 0%; */
   min-width: 225px;
   max-width:600px;
+  border-radius: 10px;
+  border: 1px solid #E48E95;
 }
 
 #regForm h2{
@@ -281,6 +283,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
     .list2{
         margin-top: 0px;
+    }
+
+    #headerP{
+        font-size: 20px;
     }
 
 }
