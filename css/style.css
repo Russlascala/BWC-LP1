@@ -6,6 +6,7 @@
 #tagline p{
     text-align: right;
     font-size: 30px;
+    display: none;
 }
 
 /* Top Bar */
@@ -31,12 +32,14 @@
 
 /* Style the form */
 #regForm {
+    margin-top: 10px;
+    margin-bottom: 10px;
   background-color: #fff;
   /* margin: 100px auto; */
   margin-left: auto;
   font-family: 'Roboto', sans-serif;
   padding: 20px;
-  width: 0%;
+  /* width: 0%; */
   min-width: 225px;
   max-width:600px;
 }
@@ -179,6 +182,10 @@ button:hover {
   background-color: #dc6f78;
 }
 
+.list2{
+    margin-top: -15px;
+}
+
 /* Three bullets row section */
 .content-afterform{
     background-color: #e0e0e0;
@@ -212,6 +219,14 @@ button:hover {
     margin: 0 auto;
 }
 
+/* Offers Section */
+#offers h2{ 
+    color: #6D6589;
+}
+
+#offers h3{
+    color:#980053;
+}
 
 /* Footer Styles */
 footer a{
@@ -256,9 +271,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-
+    #regForm {
+        width: 0%; 
+    }
    
-    
+    #tagline{
+        display: block;
+    }
+
+    .list2{
+        margin-top: 0px;
+    }
 
 }
  
