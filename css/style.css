@@ -5,7 +5,7 @@
 
 #tagline{
     text-align: right;
-    font-size: 30px;
+    font-size: 21px;
     display: none;
 }
 
@@ -22,9 +22,19 @@
 
 }
 
+/* Cert Img */
+#cert2019{
+    position: absolute;
+    left: 68%;
+    margin-top: -15px;
+    z-index: 100;
+    width:100px;
+    
+}
+
 /* Banner and Form */
 #bannerImg{
-    background-image: url(../imgs/bgimg6.jpg);
+    background-image: url(../imgs/istock2.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center;
@@ -32,8 +42,8 @@
 
 /* Style the form */
 #regForm {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   background-color: #fff;
   /* margin: 100px auto; */
   margin-left: auto;
@@ -45,6 +55,8 @@
   border-radius: 10px;
   border: 1px solid #E48E95;
 }
+
+/* #formTop{ background-color: #E48E95; width:100%;} */
 
 #regForm h2{
      text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0); 
@@ -237,6 +249,16 @@ footer a{
 footer a:hover{
     color: #CE2A00;
 }
+
+#powerMag{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+.offerImgs{
+    margin-bottom: 20px;
+}
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -288,18 +310,27 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     #headerP{
         font-size: 20px;
     }
+    #cert2019{
+    left: 40%;
+    width: 160px;
+    margin-top: 10px;
+   }
 
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-   
+   #cert2019{
+    left: 50%;
+   }
 }
 
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-   
+   #cert2019{
+    left: 60%;
+   }
 
 }
  
