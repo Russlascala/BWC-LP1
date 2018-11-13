@@ -9,6 +9,10 @@
     display: none;
 }
 
+.fa-globe{
+    color: #E48E95;
+}
+
 /* Top Bar */
 .topBarColor{
     background-color:#E48E95;
