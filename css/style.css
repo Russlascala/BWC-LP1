@@ -242,12 +242,16 @@ button:hover {
     color:#980053;
 }
 
+footer{
+    background: #e0e0e0;
+}
+
 /* Footer Styles */
 footer a{
-    color: #2c3d50;
+    color: #6D6589;
 }
 footer a:hover{
-    color: #CE2A00;
+    color: #977197;
 }
 
 #powerMag{
