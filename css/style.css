@@ -72,6 +72,8 @@
     margin-bottom: 0;
 }
 
+#regForm h5, #regForm h6{ text-align: center;}
+
 /* h2 {
     text-align: center; 
     color:#fff;
