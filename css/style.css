@@ -29,7 +29,7 @@
 /* Cert Img */
 #cert2019{
     position: absolute;
-    left: 68%;
+    left: 67%;
     margin-top: -15px;
     z-index: 100;
     width:100px;
@@ -41,6 +41,7 @@
     background-image: url(../imgs/istock2.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
+    
     background-position: center center;
 }
 
@@ -50,10 +51,11 @@
     margin-bottom: 50px;
   background-color: #fff;
   /* margin: 100px auto; */
-  margin-left: auto;
+  /* margin-left: auto; */
   font-family: 'Roboto', sans-serif;
   padding: 20px;
   /* width: 0%; */
+  width: 100%;
   min-width: 225px;
   max-width:600px;
   border-radius: 10px;
@@ -64,6 +66,10 @@
 
 #regForm h2{
      text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0); 
+}
+
+#regForm p {
+    margin-bottom: 0;
 }
 
 /* h2 {
@@ -79,12 +85,14 @@
     color:white;
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
 }
+
 .select-dropdown{
     padding: 8px;
-    margin-top:10px;
+    margin-bottom:10px;
     border-radius: 7px;
-    border:2px solid gray;
-    font-size:18px;
+    padding:5px;
+    /* border:2px solid gray; */
+    font-size:17px;
     font-family: 'Roboto', sans-serif;
 }
 input{
@@ -95,6 +103,7 @@ input{
     padding: 5px;
     width: 100%;
     font-size: 17px;
+    margin-bottom: 5px;
     font-family: 'Roboto', sans-serif;
     border: 1px solid #aaaaaa;
 }
@@ -181,6 +190,7 @@ button:hover {
 #secure-logos{
     width:100%;
 }
+#bwc{ text-transform: uppercase; font-weight:bold;}
 
 
 /* Make circles that indicate the steps of the form: */
@@ -224,7 +234,7 @@ button:hover {
     background: #E48E95;
     color: #000!important;
     font-weight: bold;
-    width: 60%;
+    width: 70%;
     display: block;
     margin:0 auto;
     text-transform: uppercase;
@@ -255,6 +265,10 @@ button:hover {
 /* Offers Section */
 #offers h2{ 
     color: #6D6589;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #offers h3{
@@ -318,9 +332,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-    #regForm {
+    /* #regForm {
         width: 0%; 
-    }
+    } */
    
     #tagline{
         display: block;
@@ -330,13 +344,18 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         margin-top: 0px;
     }
 
+    #regForm{
+       margin-top: 100px;
+       margin-bottom: 100px;
+   }
+
     #headerP{
         font-size: 20px;
     }
     #cert2019{
-    left: 40%;
+    left: 46%;
     width: 160px;
-    margin-top: 10px;
+    margin-top: 30px;
    }
 
 }
@@ -352,7 +371,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
    #cert2019{
-    left: 60%;
+    left: 50%;
+   }
+
+   #regForm{
+       margin-top: 150px;
+       margin-bottom: 150px;
    }
 
 }
