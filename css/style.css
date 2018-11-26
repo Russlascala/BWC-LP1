@@ -1,6 +1,7 @@
 /* Header */
 #logo{
-    margin:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 
 #tagline{
@@ -159,7 +160,7 @@ select{
 #textLeft li::before {
   content: "•  ";
   /*color: white; or whatever color you prefer */
-  color: #765099;
+  color: #FEFEDF;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
@@ -371,9 +372,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         font-size: 20px;
     }
     #cert2019{
-    left: 46%;
+    left: 78%;
     width: 160px;
-    margin-top: 30px;
+    margin-top: -16px;
    }
 
 }
@@ -381,7 +382,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
    #cert2019{
-    left: 50%;
+    margin-top: -6px;
+    left: 84%;
    }
 }
 
@@ -389,7 +391,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
    #cert2019{
-    left: 50%;
+    left: 80%;
+    margin-top: 25px;
    }
 
    #regForm{
