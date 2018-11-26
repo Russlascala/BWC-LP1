@@ -158,7 +158,9 @@ select{
 
 #textLeft li::before {
   content: "•  ";
-  color: white; /* or whatever color you prefer */
+  /*color: white; or whatever color you prefer */
+  color: #765099;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 
